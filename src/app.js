@@ -23,4 +23,4 @@ app.use(express.static("public"))
 // cookies CRUD operations for secure access
 app.use(cookieParser())
 
-export { app }
+export default app 
